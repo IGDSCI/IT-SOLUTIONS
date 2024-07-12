@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>IT Solutions</title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="div-header">
+                <h1>IT Solutions</h1>
+                <div class="div-sections" id="id-sections">
+                    <a href="#inicio"><h4 class="section-text" onclick="closeMenu()">INÍCIO</h4></a>
+                    <a href="#sobre"><h4  class="section-text" onclick="closeMenu()">SOBRE</h4></a>
+                    <a href="#galeria"><h4  class="section-text" onclick="closeMenu()">GALERIA</h4></a>
+                </div>
+                <div class="small-menu">
+                    <h3 class="bi bi-list" id="menu-icon" style="font-size: 28px;" onclick="openMenu()"></h3>
+                    <h3 class="bi bi-x-lg" id="close-icon" style="font-size: 28px; display: none;" onclick="openMenu()"></h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="div-description" id="inicio">
+            <h1 class="title-description">Lorem ipsum dolor sit amet consectetur.</h1>
+            <h4 class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quis odio inventore porro.</h4>
+            <h2 class="know-more">SAIBA MAIS</h2>
+        </div>
+        <div class="div-clients">
+            <h1 class="section-title">NOSSOS CLIENTES</h1>
+            <div class="div-img-clients">
+                <img src="img/netflix.png" class="img-clients">
+                <img src="img/google.png" class="img-clients">
+                <img src="img/apple.png" class="img-clients">
+                <img src="img/microsoft.png" class="img-clients" id="sobre">
+            </div>
+        </div>
+        <div class="div-do" >
+            <h1 class="section-title" style="text-align: center;">O QUE FAZEMOS</h1>
+            <ul class="ul-do">
+                <li class="li-do">
+                    <div>
+                        <h1 class="title-description-do">Lorem ipsum dolor sit amet adipisicing.</h1>
+                        <h4 class="description-do">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nihil saepe nisi commodi voluptatum, dicta transmos bicks enaltes idigos quia exercitationem praesentium qui non harum nisi.</h4>
+                    </div>
+                </li>
+                <li class="li-do">
+                    <div>
+                        <h1 class="title-description-do">Lorem ipsum dolor sit amet consectetur.</h1>
+                        <h4 class="description-do">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nihil saepe nisi commodi voluptatum, dicta transmos bicks enaltes idigos quia exercitationem praesentium qui non harum nisi.</h4>
+                    </div>
+                </li>
+                <li class="li-do">
+                    <div>
+                        <h1 class="title-description-do">Lorem ipsum dolor sit amet consectetur elit.</h1>
+                        <h4 class="description-do">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nihil saepe nisi commodi voluptatum, dicta transmos bicks enaltes idigos quia exercitationem praesentium qui non harum nisi.</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="product">
+            <h1 class="section-title">NOSSO PRODUTO</h1>
+            <div class="div-product">
+                <img src="img/produto.png">
+                <div class="product-item-container">
+                    <div class="product-item">
+                        <i class="bi bi-people-fill" style="font-size: 28px;"></i>
+                        <h4 class="product-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti numquam omnis porro tempora ipsam voluptas dolor reiciendis.</h4>
+                    </div>
+                    <div class="product-item">
+                        <i class="bi bi-cart-check-fill" style="font-size: 28px;"></i>
+                        <h4 class="product-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti numquam omnis porro tempora ipsam voluptas dolor reiciendis.</h4>
+                    </div>
+                    <div class="product-item">
+                        <i class="bi bi-chat-left-text-fill" style="font-size: 28px;"></i>
+                        <h4 class="product-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti numquam omnis porro tempora ipsam voluptas dolor reiciendis.</h4>
+                    </div>
+                    <div class="product-item">
+                        <i class="bi bi-clipboard-data-fill" style="font-size: 28px;"></i>
+                        <h4 class="product-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti numquam omnis porro tempora ipsam voluptas dolor reiciendis.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="opinion-about-us">
+            <h1 class="section-title">O QUE ACHAM DE NÓS</h1>
+            <div class="opinion-text">
+                <img src="img/comentario1.png" class="comment-img">
+                <h4 class="client-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nesciunt architecto sapiente nostrum reprehende corporis ex aperiam laudantium eaque, a dolorem assumenda dolores omnis quod quisquam natus voluptas dignissimos!</h4>
+            </div>
+            <div class="opinion-text">
+                <img src="img/comentario3.png" class="comment-img">
+                <h4 class="client-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nesciunt architecto sapiente nostrum reprehende corporis ex aperiam laudantium eaque, a dolorem assumenda dolores omnis quod quisquam natus voluptas dignissimos!</h4>
+            </div>
+            <div class="opinion-text">
+                <img src="img/comentario2.png" class="comment-img">
+                <h4 class="client-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nesciunt architecto sapiente nostrum reprehende corporis ex aperiam laudantium eaque, a dolorem assumenda dolores omnis quod quisquam natus voluptas dignissimos!</h4>
+            </div>
+        </div>
+        <div class="div-gallery" id="galeria">
+            <h1 class="section-title">GALERIA</h1>
+            <div class="div-gallery-img">
+                <img src="img/equipe.jpg" class="img-gallery">
+                <img src="img/lider.jpg" class="img-gallery">
+                <img src="img/computador.jpg" class="img-gallery">
+                <img src="img/coletiva.jpg" class="img-gallery">
+                <img src="img/codigo.jpg" class="img-gallery">
+                <img src="img/reuniao.jpg" class="img-gallery">
+        </div>
+    </main>
+    <footer>
+        <div class="div-footer">
+            <h4 class="text-footer">&copy; Copyright 2024 - All rights reserved</h4>
+        </div>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
