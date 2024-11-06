@@ -27,6 +27,7 @@ a{
     width: 100%;
     color: white;
     position: fixed;
+    box-sizing: border-box;
 }
 
 .div-header{
